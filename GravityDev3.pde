@@ -1,3 +1,16 @@
+/*
+    GravityDev3
+    Third iteration of a 2D gravity simulator.     
+    by Nayan Sawyer
+    started Mar 2022
+    version 0.3.4 Mar 31 2022
+    
+    Features include clicking on a planet to lock onto it, center a focussed 
+    planet, and pan/zoom. Next version planned will be written in C++ for better 
+    acuracy and memory management, as this one has floating point imprecision 
+    issues, and Processing is not effecient with memory.
+
+*/
 
 PlanetManager pm; // Manages Planets
 Gui gui; // Contains and manages gui

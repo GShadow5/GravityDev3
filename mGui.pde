@@ -20,6 +20,7 @@ class Gui {
   }
 }
 
+//Center button
 class CButton extends Button{
   
   CButton(){
